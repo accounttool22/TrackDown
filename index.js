@@ -63,7 +63,7 @@ const chatId = msg.chat.id;
  
 
 if(msg?.reply_to_message?.text=="🌐 Enter Your URL JOIN @accounttool"){
- createLink Bot By Nati(chatId,msg.text); 
+ createLink(chatId,msg.text); 
 }
   
 if(msg.text=="/start"){
